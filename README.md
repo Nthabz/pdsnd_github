@@ -1,11 +1,23 @@
 ### Date created
+<<<<<<< HEAD
 17/12/2019
+||||||| 0cdf2f3
+Include the date you created this project and README file.
+=======
+16/12/2019
+>>>>>>> documentation
 
 ### Project Title
+<<<<<<< HEAD
 Bikeshare
+||||||| 0cdf2f3
+Replace the Project Title
+=======
+Bikeshare.py
+>>>>>>> documentation
 
 ### Description
-Describe what your project is about and what it does
+Analysing bikeshare data using python
 
 ### Files used
 Include the files used
