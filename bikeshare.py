@@ -27,7 +27,7 @@ elif city.lower() == 'new york city':
 elif city.lower() == 'washington':
     return 'washington.csv'
 else:
-    print ('You have not selected one of the options. Please type chicago, new york city or washington')
+    print ('Invalid selection. Please type chicago, new york city or washington')
 
     # TO DO: get user input for month (all, january, february, ... , june)
 
@@ -70,12 +70,12 @@ while valid_date== False:
                 print('\nCalculating The Most Frequent Times of Travel...\n')
                 start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: display the most popular month
 
                 months=['January','February','March','April','May','June','July','August','September','October','November','December']
                 index=int(df['start_time'].dt.month.mode())
                 most_common_month=months[index-1]
-                print('The most common month for bike rentals is {}'.format(most_common_month))
+                print('The most popular month for bike rentals is {}'.format(most_common_month))
 
     # TO DO: display the most common day of week
 
