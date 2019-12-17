@@ -70,7 +70,7 @@ while valid_date== False:
                 print('\nCalculating The Most Frequent Times of Travel...\n')
                 start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: display the most popular month
 
                 months=['January','February','March','April','May','June','July','August','September','October','November','December']
                 index=int(df['start_time'].dt.month.mode())
